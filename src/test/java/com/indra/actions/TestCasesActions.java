@@ -156,6 +156,7 @@ public class TestCasesActions {
         user= fileCSV.data.get(4).get(2);
         password = fileCSV.data.get(4).get(3);
         msisdn = fileCSV.data.get(4).get(4);
+        nombreServidorPuerto = fileCSV.data.get(4).get(7);
 
         String caso=
                 "{\n" +
@@ -324,6 +325,7 @@ public class TestCasesActions {
         user= fileCSV.data.get(8).get(2);
         password = fileCSV.data.get(8).get(3);
         msisdn = fileCSV.data.get(8).get(4);
+        nombreServidorPuerto = fileCSV.data.get(8).get(7);
         String caso=
                 "{\n" +
                         "    \"contentFeature\": [\n" +
@@ -446,6 +448,7 @@ public class TestCasesActions {
         user= fileCSV.data.get(11).get(2);
         password = fileCSV.data.get(11).get(3);
         msisdn = fileCSV.data.get(11).get(4);
+        nit = fileCSV.data.get(11).get(5);
         cedulavendedor = fileCSV.data.get(11).get(6);
         String caso=
                 "{\n" +
